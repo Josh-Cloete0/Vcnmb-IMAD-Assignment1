@@ -26,4 +26,8 @@ class MainActivity : AppCompatActivity() {
     val txtInput = findViewById<EditText>(R.id.txtInput)
     val btnClick = findViewById<Button>(R.id.btnClick)
     val btnReset = findViewById<Button>(R.id.btnReset)
+
+    btnReset.setOnClick
+
+
 }
