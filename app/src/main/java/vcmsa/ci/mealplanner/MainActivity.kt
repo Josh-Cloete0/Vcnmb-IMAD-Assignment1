@@ -1,6 +1,9 @@
 package vcmsa.ci.mealplanner
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,4 +20,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
     }
+
+    // decalaring variables
+    val txtOutput = findViewById<TextView>(R.id.txtOutput)
+    val txtInput = findViewById<EditText>(R.id.txtInput)
+    val btnClick = findViewById<Button>(R.id.btnClick)
+    val btnReset = findViewById<Button>(R.id.btnReset)
 }
