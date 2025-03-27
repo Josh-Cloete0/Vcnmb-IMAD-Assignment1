@@ -27,7 +27,15 @@ class MainActivity : AppCompatActivity() {
     val btnClick = findViewById<Button>(R.id.btnClick)
     val btnReset = findViewById<Button>(R.id.btnReset)
 
-    btnReset.setOnClick
+
+
+    if(txtInput = " Morning:Breakfast")
+
+    btnReset.setOnClickListener{
+        txtInput.text.clear()
+        txtOutput.text=""
+    }
+
 
 
 }
